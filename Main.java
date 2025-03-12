@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main{
     Scanner scan = new Scanner(System.in);
     ArrayList<Pessoa> pessoas = new ArrayList<Pessoa>();
+    Pessoa pessoaExe = new Pessoa();
     public void menu(){
         int op;
             do{
@@ -17,10 +18,10 @@ public class Main{
                 scan.nextLine();
                 switch (op){
                     case 1:
-                        cadastrarPessoa();
+                        pessoas = pessoaExe.cadastrarPessoa(pessoas);
                     break;
                     case 2:
-                        editarPessoa();
+                        pessoas = pessoaExe.editarPessoa(pessoas);
                     break;
                     case 3:
                         visualizarPessoas();
