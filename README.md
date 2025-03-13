@@ -1,5 +1,5 @@
 <h3>This repository is an activity from my system development course of my school.</h3><br>
-This is an activity to train and learn OOP. The class/object used on this project is the People class ("Pessoa"), so there, you can sign in people and edit, view or delete the datas.<br>
+This is an activity to train and learn OOP. The class/object used on this project is the People class ("Pessoa"), so there, you can register, edit, view or delete the datas.<br>
 
 
 
