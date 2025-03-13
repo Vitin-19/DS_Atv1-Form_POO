@@ -9,5 +9,5 @@ The technology used on this project was Java
 <h3>NOTE</h3>
 <hr>
 This project was created for studies, school activities and portifolio reasons. Its use, modification and redistribution are not allowed without authorization.<br>
-All of the project is on portuguese.
+All of the project is on portuguese.<br>
 Because it's an school activity, all of the classes has been commited.
