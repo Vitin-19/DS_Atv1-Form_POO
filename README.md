@@ -6,7 +6,7 @@ This is an activity to train and learn OOP. The class/object used on this projec
 
 The technology used on this project was Java
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50"/>.<br>
-<h3>NOTE</h3><br>
+<h3>NOTE</h3>
 <hr>
 This project was created for studies, school activities and portifolio reasons. Its use, modification and redistribution are not allowed without authorization.<br>
 All of the project is on portuguese.
