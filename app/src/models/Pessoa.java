@@ -139,18 +139,22 @@ public class Pessoa {
     }
 
     public void visualizarPessoas(ArrayList<Pessoa> pessoas){
-        System.out.println("Escolha uma pessoa: Exemplo: 1,2,3...\n");
-        int contador = 1;
-        for (Pessoa pessoa : pessoas){
-            System.out.printf("%d- %s\n",contador,pessoa.nome);
-            contador++;
-        }
-        int pessoaSelecionada = scan.nextInt() - 1;
-        scan.nextLine();
+       if(pessoas == null){
+            System.out.println("Nehuma pessoa foi cadastrada");
+       }else{
+            System.out.println("Escolha uma pessoa: Exemplo: 1,2,3...\n");
+            int contador = 1;
+            for (Pessoa pessoa : pessoas){
+                System.out.printf("%d- %s\n",contador,pessoa.nome);
+                contador++;
+            }
+            int pessoaSelecionada = scan.nextInt() - 1;
+            scan.nextLine();
 
-        System.out.printf("Nome: %s\n",pessoas.get(pessoaSelecionada).nome);
-        System.out.printf("Idade: %d\n",pessoas.get(pessoaSelecionada).idade);
-        System.out.printf("Email: %s\n",pessoas.get(pessoaSelecionada).email);
+            System.out.printf("Nome: %s\n",pessoas.get(pessoaSelecionada).nome);
+            System.out.printf("Idade: %d\n",pessoas.get(pessoaSelecionada).idade);
+            System.out.printf("Email: %s\n",pessoas.get(pessoaSelecionada).email);
+       }
     }
     
     public ArrayList<Pessoa> excluirPessoa(ArrayList<Pessoa> pessoas){
