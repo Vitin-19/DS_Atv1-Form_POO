@@ -10,7 +10,7 @@ public class Main {
     ArrayList<Pessoa> pessoas = new ArrayList<>();
     Pessoa pessoaExe = new Pessoa();
 
-    public boolean  menu() {
+    public boolean menu() {
         int op;
         System.out.println("--MENU--");
         System.out.println("1- Cadastrar pessoa");
